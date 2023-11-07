@@ -1,3 +1,4 @@
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig
@@ -5,6 +6,7 @@ module.exports = function (eleventyConfig) {
         .addPassthroughCopy("./wp-includes")
         .addPassthroughCopy("./favicon*")
         .addPassthroughCopy(".wp-json")
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
 };
 

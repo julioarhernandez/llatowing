@@ -1,0 +1,31 @@
+{
+  "phone": "(786) 345-3456",
+  "home": {
+    "hero": {
+      "title": "Asistencia en carretera, cuando más la necesitas.",
+      "subtitle1": "Servicios de remolque",
+      "subtitle2": "de la más alta calidad."
+    },
+    "contact": {
+      "title": "Servicios de emergencia 24/7"
+    },
+    "services": [
+      {
+        "title": "Remolque por accidente",
+        "content": ""
+      },
+      {
+        "title": "Neumáticos",
+        "content": ""
+      },
+      {
+        "title": "Arranque",
+        "content": ""
+      },
+      {
+        "title": "Reparaciones Menores",
+        "content": ""
+      }
+    ]
+  }
+}
