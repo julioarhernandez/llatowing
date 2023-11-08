@@ -587,7 +587,125 @@ eleventyNavigation:
                   <div id="mf-response-props-id-423" data-previous-steps-style="" data-editswitchopen="" data-response_type="alert" data-erroricon="fas fa-exclamation-triangle" data-successicon="fas fa-check" data-messageposition="top" class="mf-scroll-top-no">
                     <div class="formpicker_warper formpicker_warper_editable" data-metform-formpicker-key="423">
                       <div class="elementor-widget-container">
-                        <div id="metform-wrap-8f3202c-423" class="mf-form-wrapper" data-form-id="423" data-action="../wp-json/metform/v1/entries/insert/423" data-wp-nonce="c905ac24cb" data-form-nonce="b958eaf197" data-quiz-summery="false" data-save-progress="false" data-form-type="contact_form" data-stop-vertical-effect=""><form class="metform-form-content"><div class="mf-main-response-wrap   mf-response-msg-wrap" data-show="0"><div class="mf-response-msg"><i class="mf-success-icon fas fa-check"></i><p></p></div></div><div class="metform-form-main-wrapper"><div data-elementor-type="wp-post" data-elementor-id="423" class="elementor elementor-423"><section class="elementor-section elementor-top-section elementor-element elementor-element-523325c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="523325c" data-element_type="section"><div class="elementor-container elementor-column-gap-default"><div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-410c90a" data-id="410c90a" data-element_type="column"><div class="elementor-widget-wrap elementor-element-populated"><div class="elementor-element elementor-element-c6859ba elementor-widget elementor-widget-mf-text" data-id="c6859ba" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-text&quot;}" data-widget_type="mf-text.default"><div class="elementor-widget-container"><div class="mf-input-wrapper"><input type="text" class="mf-input " id="mf-input-text-c6859ba" name="mf-text" placeholder="Name " aria-invalid="false"></div></div></div><div class="elementor-element elementor-element-0684990 elementor-widget elementor-widget-spacer" data-id="0684990" data-element_type="widget" data-widget_type="spacer.default"><div class="elementor-widget-container"><div class="elementor-spacer"><div class="elementor-spacer-inner"></div></div></div></div><div class="elementor-element elementor-element-51076d2 elementor-widget elementor-widget-mf-email" data-id="51076d2" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}" data-widget_type="mf-email.default"><div class="elementor-widget-container"><div class="mf-input-wrapper"><input type="email" class="mf-input " id="mf-input-email-51076d2" name="mf-email" placeholder="Email " aria-invalid="false" value=""></div></div></div><div class="elementor-element elementor-element-ecef856 elementor-widget elementor-widget-spacer" data-id="ecef856" data-element_type="widget" data-widget_type="spacer.default"><div class="elementor-widget-container"><div class="elementor-spacer"><div class="elementor-spacer-inner"></div></div></div></div><div class="elementor-element elementor-element-f15cb06 elementor-widget elementor-widget-mf-number" data-id="f15cb06" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-number&quot;}" data-widget_type="mf-number.default"><div class="elementor-widget-container"><div class="mf-input-wrapper"><input type="number" step="any" class="mf-input " id="mf-input-mobile-f15cb06" name="mf-number" placeholder="Phone " aria-invalid="false"></div></div></div><div class="elementor-element elementor-element-b02d6dc elementor-widget elementor-widget-spacer" data-id="b02d6dc" data-element_type="widget" data-widget_type="spacer.default"><div class="elementor-widget-container"><div class="elementor-spacer"><div class="elementor-spacer-inner"></div></div></div></div><div class="elementor-element elementor-element-04c033f elementor-widget elementor-widget-mf-textarea" data-id="04c033f" data-element_type="widget" data-settings="{&quot;mf_input_name&quot;:&quot;mf-textarea&quot;}" data-widget_type="mf-textarea.default"><div class="elementor-widget-container"><div class="mf-input-wrapper"><textarea class="mf-input mf-textarea " id="mf-input-text-area-04c033f" name="mf-textarea" placeholder="Message " cols="30" rows="10" aria-invalid="false"></textarea></div></div></div><div class="elementor-element elementor-element-f400114 elementor-widget elementor-widget-spacer" data-id="f400114" data-element_type="widget" data-widget_type="spacer.default"><div class="elementor-widget-container"><div class="elementor-spacer"><div class="elementor-spacer-inner"></div></div></div></div><div class="elementor-element elementor-element-33429b2 mf-btn--center elementor-widget elementor-widget-mf-button" data-id="33429b2" data-element_type="widget" data-widget_type="mf-button.default"><div class="elementor-widget-container"><div class="mf-btn-wraper " data-mf-form-conditional-logic-requirement=""><button type="submit" class="metform-btn metform-submit-btn " id=""><span>Send Message </span></button></div></div></div></div></div></div></section></div></div></form></div>
+                        <div id="metform-wrap-8f3202c-423" class="mf-form-wrapper" data-form-id="423" data-action="../wp-json/metform/v1/entries/insert/423" data-wp-nonce="c905ac24cb" data-form-nonce="b958eaf197" data-quiz-summery="false" data-save-progress="false" data-form-type="contact_form" data-stop-vertical-effect="">
+                          <form class="metform-form-content" action="{{ data.form }}" method="post">
+                            <div class="mf-main-response-wrap   mf-response-msg-wrap" data-show="0">
+                              <div class="mf-response-msg"><i class="mf-success-icon fas fa-check"></i>
+                                <p></p></div>
+                            </div>
+                            <div class="metform-form-main-wrapper">
+                              <div data-elementor-type="wp-post" data-elementor-id="423"
+                                   class="elementor elementor-423">
+                                <section
+                                        class="elementor-section elementor-top-section elementor-element elementor-element-523325c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                        data-id="523325c" data-element_type="section">
+                                  <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-410c90a"
+                                         data-id="410c90a" data-element_type="column">
+                                      <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-c6859ba elementor-widget elementor-widget-mf-text"
+                                             data-id="c6859ba" data-element_type="widget"
+                                             data-settings="{&quot;mf_input_name&quot;:&quot;mf-text&quot;}"
+                                             data-widget_type="mf-text.default">
+                                          <div class="elementor-widget-container">
+                                            <div class="mf-input-wrapper">
+                                              <input type="text" class="mf-input "
+                                                                                 id="mf-input-text-c6859ba"
+                                                                                 name="Nombre" placeholder="Nombre "
+                                                                                 aria-invalid="false"></div>
+                                          </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-0684990 elementor-widget elementor-widget-spacer"
+                                             data-id="0684990" data-element_type="widget"
+                                             data-widget_type="spacer.default">
+                                          <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                              <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-51076d2 elementor-widget elementor-widget-mf-email"
+                                             data-id="51076d2" data-element_type="widget"
+                                             data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}"
+                                             data-widget_type="mf-email.default">
+                                          <div class="elementor-widget-container">
+                                            <div class="mf-input-wrapper"><input type="email" class="mf-input "
+                                                                                 id="mf-input-email-51076d2"
+                                                                                 name="email" placeholder="Email "
+                                                                                 aria-invalid="false" value=""></div>
+                                          </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-ecef856 elementor-widget elementor-widget-spacer"
+                                             data-id="ecef856" data-element_type="widget"
+                                             data-widget_type="spacer.default">
+                                          <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                              <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-f15cb06 elementor-widget elementor-widget-mf-number"
+                                             data-id="f15cb06" data-element_type="widget"
+                                             data-settings="{&quot;mf_input_name&quot;:&quot;mf-number&quot;}"
+                                             data-widget_type="mf-number.default">
+                                          <div class="elementor-widget-container">
+                                            <div class="mf-input-wrapper"><input type="number" step="any"
+                                                                                 class="mf-input "
+                                                                                 id="mf-input-mobile-f15cb06"
+                                                                                 name="telefono" placeholder="Telefono "
+                                                                                 aria-invalid="false"></div>
+                                          </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-b02d6dc elementor-widget elementor-widget-spacer"
+                                             data-id="b02d6dc" data-element_type="widget"
+                                             data-widget_type="spacer.default">
+                                          <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                              <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-04c033f elementor-widget elementor-widget-mf-textarea"
+                                             data-id="04c033f" data-element_type="widget"
+                                             data-settings="{&quot;mf_input_name&quot;:&quot;mf-textarea&quot;}"
+                                             data-widget_type="mf-textarea.default">
+                                          <div class="elementor-widget-container">
+                                            <div class="mf-input-wrapper"><textarea class="mf-input mf-textarea "
+                                                                                    id="mf-input-text-area-04c033f"
+                                                                                    name="Mensaje"
+                                                                                    placeholder="Mensaje " cols="30"
+                                                                                    rows="10"
+                                                                                    aria-invalid="false"></textarea>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-f400114 elementor-widget elementor-widget-spacer"
+                                             data-id="f400114" data-element_type="widget"
+                                             data-widget_type="spacer.default">
+                                          <div class="elementor-widget-container">
+                                            <div class="elementor-spacer">
+                                              <div class="elementor-spacer-inner"></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-33429b2 mf-btn--center elementor-widget elementor-widget-mf-button"
+                                             data-id="33429b2" data-element_type="widget"
+                                             data-widget_type="mf-button.default">
+                                          <div class="elementor-widget-container">
+                                            <div class="mf-btn-wraper " data-mf-form-conditional-logic-requirement="">
+                                              <button type="submit" class="metform-btn metform-submit-btn " id=""><span>Enviar mensaje</span>
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
 
                       </div>
                     </div>

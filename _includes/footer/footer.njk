@@ -61,8 +61,7 @@
                                                  data-wp-nonce="c905ac24cb" data-form-nonce="b958eaf197"
                                                  data-quiz-summery="false" data-save-progress="false"
                                                  data-form-type="contact_form" data-stop-vertical-effect="">
-                                                <form class="metform-form-content">
-
+                                                <form class="metform-form-content" action="{{ data.form }}" method="POST">
                                                     <div class="metform-form-main-wrapper">
                                                         <div data-elementor-type="wp-post" data-elementor-id="157"
                                                              class="elementor elementor-157">
@@ -79,11 +78,12 @@
                                                                                  data-settings="{&quot;mf_input_name&quot;:&quot;mf-text&quot;}"
                                                                                  data-widget_type="mf-text.default">
                                                                                 <div class="elementor-widget-container">
-                                                                                    <div class="mf-input-wrapper"><input
+                                                                                    <div class="mf-input-wrapper">
+                                                                                        <input
                                                                                                 type="text"
                                                                                                 class="mf-input "
                                                                                                 id="mf-input-text-b39ae92"
-                                                                                                name="mf-text"
+                                                                                                name="Nombre"
                                                                                                 placeholder="Nombre "
                                                                                                 aria-invalid="false">
                                                                                     </div>
@@ -105,11 +105,12 @@
                                                                                  data-settings="{&quot;mf_input_name&quot;:&quot;mf-email&quot;}"
                                                                                  data-widget_type="mf-email.default">
                                                                                 <div class="elementor-widget-container">
-                                                                                    <div class="mf-input-wrapper"><input
+                                                                                    <div class="mf-input-wrapper">
+                                                                                        <input
                                                                                                 type="email"
                                                                                                 class="mf-input "
                                                                                                 id="mf-input-email-c60ee45"
-                                                                                                name="mf-email"
+                                                                                                name="email"
                                                                                                 placeholder="Email "
                                                                                                 aria-invalid="false"
                                                                                                 value=""></div>

@@ -363,6 +363,18 @@
   color: var(--e-global-color-d82685b);
 }
 .elementor-38
+.elementor-element.elementor-element-46279cb8
+.menu-is-active
+.menu-item.current-menu-item
+a.hfe-menu-item,
+.elementor-38
+.elementor-element.elementor-element-46279cb8
+.menu-item.current-menu-ancestor
+a.hfe-menu-item {
+  color: black;
+}
+
+.elementor-38
   .elementor-element.elementor-element-46279cb8
   .sub-menu
   a.hfe-sub-menu-item,

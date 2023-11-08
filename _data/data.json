@@ -7,7 +7,7 @@
     "hero": {
       "title": "Asistencia en carretera, cuando más la necesitas.",
       "subtitle1": "Servicios de remolque",
-      "subtitle2": "Tu apoyo en carretera 24/7."
+      "subtitle2": "Tu apoyo en la vía 24/7."
     },
     "contact": {
       "title": "Servicios de emergencia 24/7"
@@ -71,5 +71,6 @@
         "testimonial": "Siempre puedo contar con Lla Towing en situaciones de emergencia. Son rápidos, confiables y asequibles. Gracias por su ayuda constante en la carretera."
       }
     ]
-  }
+  },
+  "form": "https://formspree.io/f/mbjvbdlw"
 }
