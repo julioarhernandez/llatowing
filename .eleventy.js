@@ -7,7 +7,9 @@ module.exports = function (eleventyConfig) {
         .addPassthroughCopy("./favicon*")
         .addPassthroughCopy(".wp-json")
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
-
+    eleventyConfig.addFilter('evenOdd', (number) => {
+        return number % 2 === 0 ? 'even' : 'odd';
+    });
 };
 
 

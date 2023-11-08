@@ -1064,6 +1064,8 @@
             data-element_type="column"
           >
             <div class="elementor-widget-wrap elementor-element-populated">
+              {%- for testimonial in data.home.testimonials %}
+              {% if loop.index % 2 == 0 %}
               <section
                 class="elementor-section elementor-inner-section elementor-element elementor-element-478a9052 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="478a9052"
@@ -1087,9 +1089,9 @@
                         <div class="elementor-widget-container">
                           <img
                             decoding="async"
-                            src="../wp-content/uploads/sites/14/elementor/thumbs/happy-woman-traveling-in-bus-KW9WRCG-1-p8r4z1wzjbynlkroti718yqhw0r25ekvbkr0moqdk0.jpg"
-                            title="happy-woman-traveling-in-bus-KW9WRCG.jpg"
-                            alt="happy-woman-traveling-in-bus-KW9WRCG.jpg"
+                            src="../wp-content/uploads/sites/14/elementor/thumbs/rating.png"
+                            title="testimonial"
+                            alt="testimonial"
                             loading="lazy"
                           />
                         </div>
@@ -1116,7 +1118,7 @@
                           <h6
                             class="elementor-heading-title elementor-size-default"
                           >
-                            Daniel Grant
+                            {{ testimonial.client }}
                           </h6>
                         </div>
                       </div>
@@ -1167,9 +1169,7 @@
                       >
                         <div class="elementor-widget-container">
                           <p>
-                            Lorem ipsum dolor sit amet. Sed pretium scelerisque
-                            sodales. Etiam erat sapien, euismod nec sem ut,
-                            faucibus suscipit quam. 
+                            {{ testimonial.testimonial}}
                           </p>
                         </div>
                       </div>
@@ -1206,279 +1206,8 @@
                   </div>
                 </div>
               </div>
-              <section
-                class="elementor-section elementor-inner-section elementor-element elementor-element-98f269e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="98f269e"
-                data-element_type="section"
-              >
-                <div class="elementor-container elementor-column-gap-default">
-                  <div
-                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-79b99ac6"
-                    data-id="79b99ac6"
-                    data-element_type="column"
-                  >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
-                      <div
-                        class="elementor-element elementor-element-659172b4 elementor-widget elementor-widget-image"
-                        data-id="659172b4"
-                        data-element_type="widget"
-                        data-widget_type="image.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <img
-                            decoding="async"
-                            src="../wp-content/uploads/sites/14/elementor/thumbs/portrait-of-a-cheerful-young-man-smiling-P5LXZFR-1-p8r4z2utq5zxx6qbo0lntghyhemfd3olnpei3yozds.jpg"
-                            title="portrait-of-a-cheerful-young-man-smiling-P5LXZFR.jpg"
-                            alt="portrait-of-a-cheerful-young-man-smiling-P5LXZFR.jpg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-bc98a6f elementor-widget elementor-widget-spacer"
-                        data-id="bc98a6f"
-                        data-element_type="widget"
-                        data-widget_type="spacer.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-52426623 elementor-widget elementor-widget-heading"
-                        data-id="52426623"
-                        data-element_type="widget"
-                        data-widget_type="heading.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <h6
-                            class="elementor-heading-title elementor-size-default"
-                          >
-                            Walter Ellis
-                          </h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-78f814e3"
-                    data-id="78f814e3"
-                    data-element_type="column"
-                  >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
-                      <div
-                        class="elementor-element elementor-element-89426a7 elementor-view-default elementor-widget elementor-widget-icon"
-                        data-id="89426a7"
-                        data-element_type="widget"
-                        data-widget_type="icon.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon">
-                              <i
-                                aria-hidden="true"
-                                class="fas fa-quote-left"
-                              ></i>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-41db9e48 elementor-widget elementor-widget-spacer"
-                        data-id="41db9e48"
-                        data-element_type="widget"
-                        data-widget_type="spacer.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-35ff962e elementor-widget elementor-widget-text-editor"
-                        data-id="35ff962e"
-                        data-element_type="widget"
-                        data-widget_type="text-editor.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <p>
-                            Nunc orci nulla, mollis sodales sit amet,
-                            condimentum vitae elit. Nam laoreet aliquet
-                            tristique. Sed vestibulum est consectetur venenatis
-                            malesuada.
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-579c5079 elementor-view-default elementor-widget elementor-widget-icon"
-                        data-id="579c5079"
-                        data-element_type="widget"
-                        data-widget_type="icon.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon">
-                              <i
-                                aria-hidden="true"
-                                class="fas fa-quote-right"
-                              ></i>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <div
-                class="elementor-element elementor-element-5aafa915 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                data-id="5aafa915"
-                data-element_type="widget"
-                data-widget_type="divider.default"
-              >
-                <div class="elementor-widget-container">
-                  <div class="elementor-divider">
-                    <span class="elementor-divider-separator"> </span>
-                  </div>
-                </div>
-              </div>
-              <section
-                class="elementor-section elementor-inner-section elementor-element elementor-element-589c8100 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="589c8100"
-                data-element_type="section"
-              >
-                <div class="elementor-container elementor-column-gap-default">
-                  <div
-                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-43633109"
-                    data-id="43633109"
-                    data-element_type="column"
-                  >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
-                      <div
-                        class="elementor-element elementor-element-4b4e0642 elementor-widget elementor-widget-image"
-                        data-id="4b4e0642"
-                        data-element_type="widget"
-                        data-widget_type="image.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <img
-                            decoding="async"
-                            src="../wp-content/uploads/sites/14/elementor/thumbs/young-woman-smiling-and-talking-a-selfie-PPNZP4D-1-p8r4muycvp9qzohb0qg9eji8h2unar67z839igt89s.jpg"
-                            title="young-woman-smiling-and-talking-a-selfie-PPNZP4D.jpg"
-                            alt="young-woman-smiling-and-talking-a-selfie-PPNZP4D.jpg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-360c385e elementor-widget elementor-widget-spacer"
-                        data-id="360c385e"
-                        data-element_type="widget"
-                        data-widget_type="spacer.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-45b65910 elementor-widget elementor-widget-heading"
-                        data-id="45b65910"
-                        data-element_type="widget"
-                        data-widget_type="heading.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <h6
-                            class="elementor-heading-title elementor-size-default"
-                          >
-                            Kimberly Smith
-                          </h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7dba5bb7"
-                    data-id="7dba5bb7"
-                    data-element_type="column"
-                  >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
-                      <div
-                        class="elementor-element elementor-element-3e618fcb elementor-view-default elementor-widget elementor-widget-icon"
-                        data-id="3e618fcb"
-                        data-element_type="widget"
-                        data-widget_type="icon.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon">
-                              <i
-                                aria-hidden="true"
-                                class="fas fa-quote-left"
-                              ></i>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-227a6552 elementor-widget elementor-widget-spacer"
-                        data-id="227a6552"
-                        data-element_type="widget"
-                        data-widget_type="spacer.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-794b1aa7 elementor-widget elementor-widget-text-editor"
-                        data-id="794b1aa7"
-                        data-element_type="widget"
-                        data-widget_type="text-editor.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <p>
-                            Etiam vehicula, lorem sit amet eleifend viverra,
-                            neque purus luctus arcu, vel consectetur risus massa
-                            eget massa. Donec sodales blandit faucibus.
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-7d5a48f5 elementor-view-default elementor-widget elementor-widget-icon"
-                        data-id="7d5a48f5"
-                        data-element_type="widget"
-                        data-widget_type="icon.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon">
-                              <i
-                                aria-hidden="true"
-                                class="fas fa-quote-right"
-                              ></i>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
+              {% endif %}
+              {% endfor %}
             </div>
           </div>
           <div
@@ -1487,420 +1216,150 @@
             data-element_type="column"
           >
             <div class="elementor-widget-wrap elementor-element-populated">
-              <section
-                class="elementor-section elementor-inner-section elementor-element elementor-element-39563004 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="39563004"
-                data-element_type="section"
-              >
-                <div class="elementor-container elementor-column-gap-default">
-                  <div
-                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-777ef2f0"
-                    data-id="777ef2f0"
-                    data-element_type="column"
+              {%- for testimonial in data.home.testimonials %}
+                {% if loop.index % 2 == 1 %}
+                  <section
+                          class="elementor-section elementor-inner-section elementor-element elementor-element-478a9052 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                          data-id="478a9052"
+                          data-element_type="section"
                   >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
+                    <div class="elementor-container elementor-column-gap-default">
                       <div
-                        class="elementor-element elementor-element-6c865d81 elementor-widget elementor-widget-image"
-                        data-id="6c865d81"
-                        data-element_type="widget"
-                        data-widget_type="image.default"
+                              class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7aaa765d"
+                              data-id="7aaa765d"
+                              data-element_type="column"
                       >
-                        <div class="elementor-widget-container">
-                          <img
-                            decoding="async"
-                            src="../wp-content/uploads/sites/14/elementor/thumbs/young-mixed-race-woman-smiling-PX7KWPD-1-p8r4z4qi3u2ikenld1ewyg0vo6d5shw2byph2im71c.jpg"
-                            title="young-mixed-race-woman-smiling-PX7KWPD.jpg"
-                            alt="young-mixed-race-woman-smiling-PX7KWPD.jpg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-7d207dbd elementor-widget elementor-widget-spacer"
-                        data-id="7d207dbd"
-                        data-element_type="widget"
-                        data-widget_type="spacer.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-41d48690 elementor-widget elementor-widget-heading"
-                        data-id="41d48690"
-                        data-element_type="widget"
-                        data-widget_type="heading.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <h6
-                            class="elementor-heading-title elementor-size-default"
+                        <div
+                                class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                                  class="elementor-element elementor-element-6ef0d84a elementor-widget elementor-widget-image"
+                                  data-id="6ef0d84a"
+                                  data-element_type="widget"
+                                  data-widget_type="image.default"
                           >
-                            Joshua Weaver
-                          </h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-34dea706"
-                    data-id="34dea706"
-                    data-element_type="column"
-                  >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
-                      <div
-                        class="elementor-element elementor-element-45896e15 elementor-view-default elementor-widget elementor-widget-icon"
-                        data-id="45896e15"
-                        data-element_type="widget"
-                        data-widget_type="icon.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon">
-                              <i
-                                aria-hidden="true"
-                                class="fas fa-quote-left"
-                              ></i>
+                            <div class="elementor-widget-container">
+                              <img
+                                      decoding="async"
+                                      src="../wp-content/uploads/sites/14/elementor/thumbs/rating.png"
+                                      title="testimonial"
+                                      alt="testimonial"
+                                      loading="lazy"
+                              />
                             </div>
                           </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-17516cae elementor-widget elementor-widget-spacer"
-                        data-id="17516cae"
-                        data-element_type="widget"
-                        data-widget_type="spacer.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-21de00f elementor-widget elementor-widget-text-editor"
-                        data-id="21de00f"
-                        data-element_type="widget"
-                        data-widget_type="text-editor.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <p>
-                            Donec cursus lorem ac augue placerat finibus ac et
-                            lectus. In facilisis, nisl quis convallis mollis,
-                            risus mi sollicitudin tortor.
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-34b78fd3 elementor-view-default elementor-widget elementor-widget-icon"
-                        data-id="34b78fd3"
-                        data-element_type="widget"
-                        data-widget_type="icon.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon">
-                              <i
-                                aria-hidden="true"
-                                class="fas fa-quote-right"
-                              ></i>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <div
-                class="elementor-element elementor-element-6e283690 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                data-id="6e283690"
-                data-element_type="widget"
-                data-widget_type="divider.default"
-              >
-                <div class="elementor-widget-container">
-                  <div class="elementor-divider">
-                    <span class="elementor-divider-separator"> </span>
-                  </div>
-                </div>
-              </div>
-              <section
-                class="elementor-section elementor-inner-section elementor-element elementor-element-d1daebd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="d1daebd"
-                data-element_type="section"
-              >
-                <div class="elementor-container elementor-column-gap-default">
-                  <div
-                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-23982a50"
-                    data-id="23982a50"
-                    data-element_type="column"
-                  >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
-                      <div
-                        class="elementor-element elementor-element-6b6c5833 elementor-widget elementor-widget-image"
-                        data-id="6b6c5833"
-                        data-element_type="widget"
-                        data-widget_type="image.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <img
-                            decoding="async"
-                            src="../wp-content/uploads/sites/14/elementor/thumbs/young-beautiful-woman-smiling-and-taking-selfie-ph-XWN9LTC-1-p8r4muycvp9qzohb0qg9eji8h2unar67z839igt89s.jpg"
-                            title="young-beautiful-woman-smiling-and-taking-selfie-ph-XWN9LTC.jpg"
-                            alt="young-beautiful-woman-smiling-and-taking-selfie-ph-XWN9LTC.jpg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-15071ceb elementor-widget elementor-widget-spacer"
-                        data-id="15071ceb"
-                        data-element_type="widget"
-                        data-widget_type="spacer.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-17f8d64b elementor-widget elementor-widget-heading"
-                        data-id="17f8d64b"
-                        data-element_type="widget"
-                        data-widget_type="heading.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <h6
-                            class="elementor-heading-title elementor-size-default"
+                          <div
+                                  class="elementor-element elementor-element-297e25ca elementor-widget elementor-widget-spacer"
+                                  data-id="297e25ca"
+                                  data-element_type="widget"
+                                  data-widget_type="spacer.default"
                           >
-                            Martha Dixon
-                          </h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-83f129e"
-                    data-id="83f129e"
-                    data-element_type="column"
-                  >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
-                      <div
-                        class="elementor-element elementor-element-6462ba90 elementor-view-default elementor-widget elementor-widget-icon"
-                        data-id="6462ba90"
-                        data-element_type="widget"
-                        data-widget_type="icon.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon">
-                              <i
-                                aria-hidden="true"
-                                class="fas fa-quote-left"
-                              ></i>
+                            <div class="elementor-widget-container">
+                              <div class="elementor-spacer">
+                                <div class="elementor-spacer-inner"></div>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-739df254 elementor-widget elementor-widget-spacer"
-                        data-id="739df254"
-                        data-element_type="widget"
-                        data-widget_type="spacer.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-7b40619b elementor-widget elementor-widget-text-editor"
-                        data-id="7b40619b"
-                        data-element_type="widget"
-                        data-widget_type="text-editor.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <p>
-                            Sed rhoncus velit tempor mauris lobortis, venenatis
-                            tempus sem faucibus. Quisque placerat velit in leo
-                            rhoncus, non scelerisque ligula varius.
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-1e99bdb8 elementor-view-default elementor-widget elementor-widget-icon"
-                        data-id="1e99bdb8"
-                        data-element_type="widget"
-                        data-widget_type="icon.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon">
-                              <i
-                                aria-hidden="true"
-                                class="fas fa-quote-right"
-                              ></i>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <div
-                class="elementor-element elementor-element-740930f9 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                data-id="740930f9"
-                data-element_type="widget"
-                data-widget_type="divider.default"
-              >
-                <div class="elementor-widget-container">
-                  <div class="elementor-divider">
-                    <span class="elementor-divider-separator"> </span>
-                  </div>
-                </div>
-              </div>
-              <section
-                class="elementor-section elementor-inner-section elementor-element elementor-element-51b17331 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="51b17331"
-                data-element_type="section"
-              >
-                <div class="elementor-container elementor-column-gap-default">
-                  <div
-                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6e395a41"
-                    data-id="6e395a41"
-                    data-element_type="column"
-                  >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
-                      <div
-                        class="elementor-element elementor-element-395eb79 elementor-widget elementor-widget-image"
-                        data-id="395eb79"
-                        data-element_type="widget"
-                        data-widget_type="image.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <img
-                            decoding="async"
-                            src="../wp-content/uploads/sites/14/elementor/thumbs/retired-man-smiling-while-watching-a-movie-X8NHAS2-1-p8r4z6m6hi537mkv22863fjsuy3w7w3j080g12jeow.jpg"
-                            title="retired-man-smiling-while-watching-a-movie-X8NHAS2.jpg"
-                            alt="retired-man-smiling-while-watching-a-movie-X8NHAS2.jpg"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-48d3cfb3 elementor-widget elementor-widget-spacer"
-                        data-id="48d3cfb3"
-                        data-element_type="widget"
-                        data-widget_type="spacer.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-243de0fb elementor-widget elementor-widget-heading"
-                        data-id="243de0fb"
-                        data-element_type="widget"
-                        data-widget_type="heading.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <h6
-                            class="elementor-heading-title elementor-size-default"
+                          <div
+                                  class="elementor-element elementor-element-2d9037b7 elementor-widget elementor-widget-heading"
+                                  data-id="2d9037b7"
+                                  data-element_type="widget"
+                                  data-widget_type="heading.default"
                           >
-                            Steven West
-                          </h6>
+                            <div class="elementor-widget-container">
+                              <h6
+                                      class="elementor-heading-title elementor-size-default"
+                              >
+                                {{ testimonial.client }}
+                              </h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                              class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1797f651"
+                              data-id="1797f651"
+                              data-element_type="column"
+                      >
+                        <div
+                                class="elementor-widget-wrap elementor-element-populated"
+                        >
+                          <div
+                                  class="elementor-element elementor-element-6ca63ccc elementor-view-default elementor-widget elementor-widget-icon"
+                                  data-id="6ca63ccc"
+                                  data-element_type="widget"
+                                  data-widget_type="icon.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="elementor-icon-wrapper">
+                                <div class="elementor-icon">
+                                  <i
+                                          aria-hidden="true"
+                                          class="fas fa-quote-left"
+                                  ></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                                  class="elementor-element elementor-element-12df9983 elementor-widget elementor-widget-spacer"
+                                  data-id="12df9983"
+                                  data-element_type="widget"
+                                  data-widget_type="spacer.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="elementor-spacer">
+                                <div class="elementor-spacer-inner"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                                  class="elementor-element elementor-element-199b817b elementor-widget elementor-widget-text-editor"
+                                  data-id="199b817b"
+                                  data-element_type="widget"
+                                  data-widget_type="text-editor.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <p>
+                                {{ testimonial.testimonial}}
+                              </p>
+                            </div>
+                          </div>
+                          <div
+                                  class="elementor-element elementor-element-434770aa elementor-view-default elementor-widget elementor-widget-icon"
+                                  data-id="434770aa"
+                                  data-element_type="widget"
+                                  data-widget_type="icon.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="elementor-icon-wrapper">
+                                <div class="elementor-icon">
+                                  <i
+                                          aria-hidden="true"
+                                          class="fas fa-quote-right"
+                                  ></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </section>
                   <div
-                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3379777d"
-                    data-id="3379777d"
-                    data-element_type="column"
+                          class="elementor-element elementor-element-58eeef73 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                          data-id="58eeef73"
+                          data-element_type="widget"
+                          data-widget_type="divider.default"
                   >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
-                      <div
-                        class="elementor-element elementor-element-10408316 elementor-view-default elementor-widget elementor-widget-icon"
-                        data-id="10408316"
-                        data-element_type="widget"
-                        data-widget_type="icon.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon">
-                              <i
-                                aria-hidden="true"
-                                class="fas fa-quote-left"
-                              ></i>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-1e7e21af elementor-widget elementor-widget-spacer"
-                        data-id="1e7e21af"
-                        data-element_type="widget"
-                        data-widget_type="spacer.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-spacer">
-                            <div class="elementor-spacer-inner"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-63b30154 elementor-widget elementor-widget-text-editor"
-                        data-id="63b30154"
-                        data-element_type="widget"
-                        data-widget_type="text-editor.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <p>
-                            Quisque eleifend sed felis commodo mollis. Aliquam
-                            feugiat feugiat dui vel euismod. Suspendisse
-                            hendrerit orci a molestie consectetur luctus.
-                          </p>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-6d6a6b08 elementor-view-default elementor-widget elementor-widget-icon"
-                        data-id="6d6a6b08"
-                        data-element_type="widget"
-                        data-widget_type="icon.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon">
-                              <i
-                                aria-hidden="true"
-                                class="fas fa-quote-right"
-                              ></i>
-                            </div>
-                          </div>
-                        </div>
+                    <div class="elementor-widget-container">
+                      <div class="elementor-divider">
+                        <span class="elementor-divider-separator"> </span>
                       </div>
                     </div>
                   </div>
-                </div>
-              </section>
+                {% endif %}
+              {% endfor %}
             </div>
           </div>
         </div>
@@ -1963,7 +1422,7 @@
               >
                 <div class="elementor-widget-container">
                   <h3 class="elementor-heading-title elementor-size-default">
-                    Numbers Speak
+                    Los Números Hablan
                   </h3>
                 </div>
               </div>
@@ -2033,7 +1492,7 @@
                               <span
                                 class="elementor-counter-number"
                                 data-duration="2000"
-                                data-to-value="12"
+                                data-to-value="30"
                                 data-from-value="0"
                                 data-delimiter=","
                                 >0</span
@@ -2043,7 +1502,7 @@
                               ></span>
                             </div>
                             <div class="elementor-counter-title">
-                              Years Experience
+                              Minutos o menos
                             </div>
                           </div>
                         </div>
@@ -2082,7 +1541,7 @@
                                 >/7</span
                               >
                             </div>
-                            <div class="elementor-counter-title">Response</div>
+                            <div class="elementor-counter-title">Disponible</div>
                           </div>
                         </div>
                       </div>
@@ -2120,7 +1579,7 @@
                                 >+</span
                               >
                             </div>
-                            <div class="elementor-counter-title">Mechanics</div>
+                            <div class="elementor-counter-title">Clientes satisfechos</div>
                           </div>
                         </div>
                       </div>
@@ -2132,74 +1591,7 @@
           </div>
         </div>
       </section>
-      <section
-        class="elementor-section elementor-top-section elementor-element elementor-element-489f1b11 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-        data-id="489f1b11"
-        data-element_type="section"
-        data-settings='{"background_background":"classic","animation":"none"}'
-      >
-        <div class="elementor-background-overlay"></div>
-        <div class="elementor-container elementor-column-gap-default">
-          <div
-            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-149d103d"
-            data-id="149d103d"
-            data-element_type="column"
-          >
-            <div class="elementor-widget-wrap"></div>
-          </div>
-          <div
-            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4c812b50"
-            data-id="4c812b50"
-            data-element_type="column"
-          >
-            <div class="elementor-widget-wrap elementor-element-populated">
-              <div
-                class="elementor-element elementor-element-4b0af63e elementor-widget elementor-widget-heading"
-                data-id="4b0af63e"
-                data-element_type="widget"
-                data-widget_type="heading.default"
-              >
-                <div class="elementor-widget-container">
-                  <h4 class="elementor-heading-title elementor-size-default">
-                    REFER A FRIEND IN DISTRESS AND HE WILL GET
-                  </h4>
-                </div>
-              </div>
-              <div
-                class="elementor-element elementor-element-6d102258 elementor-widget elementor-widget-spacer"
-                data-id="6d102258"
-                data-element_type="widget"
-                data-widget_type="spacer.default"
-              >
-                <div class="elementor-widget-container">
-                  <div class="elementor-spacer">
-                    <div class="elementor-spacer-inner"></div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="elementor-element elementor-element-b7fd8e1 elementor-widget elementor-widget-heading"
-                data-id="b7fd8e1"
-                data-element_type="widget"
-                data-widget_type="heading.default"
-              >
-                <div class="elementor-widget-container">
-                  <h2 class="elementor-heading-title elementor-size-default">
-                    PRICE REDUCED BY 15%
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3817018f"
-            data-id="3817018f"
-            data-element_type="column"
-          >
-            <div class="elementor-widget-wrap"></div>
-          </div>
-        </div>
-      </section>
+      {% include "sections/descuento.njk" %}
       <section
         class="elementor-section elementor-top-section elementor-element elementor-element-d6e066b elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="d6e066b"

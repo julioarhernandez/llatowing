@@ -11,20 +11,61 @@
     },
     "services": [
       {
-        "title": "Remolque por accidente",
-        "content": ""
+        "title": "Remolque por accidente o avería",
+        "titleResumed": "Remolque por accidente",
+        "content": "Nuestro servicio de remolque por accidente está diseñado para brindarte asistencia rápida y profesional en situaciones de emergencia en la carretera. Ya sea un accidente menor o mayor u otra avería, nuestro equipo llegará al lugar del incidente de inmediato para asegurarse de que tu vehículo se recupere de manera segura. Garantizamos una respuesta eficiente y un transporte seguro de tu automóvil a donde necesites."
       },
       {
-        "title": "Neumáticos",
-        "content": ""
+        "title": "Cambio de Neumáticos por Pinchazo",
+        "titleResumed": "Neumáticos",
+        "content": "Los pinchazos de neumáticos pueden ocurrir en el momento menos oportuno, pero estamos aquí para ayudarte. Ofrecemos un servicio de cambio de neumáticos rápido y eficiente para que puedas volver a la carretera en poco tiempo. Nuestros técnicos expertos se aseguran de que tus neumáticos sean reemplazados o reparados de manera profesional, brindándote tranquilidad en tus desplazamientos."
       },
       {
-        "title": "Arranque",
-        "content": ""
+        "title": "Arranque de Auto por Batería Muerta",
+        "titleResumed": "Arranque",
+        "content": "No hay nada más frustrante que encontrarse con una batería de auto muerta. Nuestro servicio de arranque de auto es la solución a tus problemas. Nuestros profesionales están equipados con las herramientas necesarias para arrancar tu vehículo de manera segura y eficaz, lo que te ahorra tiempo y molestias innecesarias."
       },
       {
         "title": "Reparaciones Menores",
-        "content": ""
+        "titleResumed": "Reparaciones Menores",
+        "content": "Cuando se trata de reparaciones menores en tu vehículo, estamos aquí para ayudarte. Nuestros técnicos están capacitados para abordar problemas comunes que pueden afectar el rendimiento de tu automóvil. Realizamos ajustes y solucionamos problemas que no requieren piezas de repuesto, con el objetivo de poner tu vehículo en marcha de manera rápida y eficiente."
+      },
+      {
+        "title": "Remolque con Plataforma Plana (Flatbed)",
+        "titleResumed": "Remolque con Plataforma Plana",
+        "content": "Nuestro servicio de Remolque con Plataforma Plana es la solución segura y confiable para transportar una amplia variedad de vehículos, desde automóviles y camionetas hasta vehículos recreativos y maquinaria pesada. Nuestra plataforma plana garantiza un transporte estable y seguro, minimizando el riesgo de daños durante el remolque. Ya sea que necesites trasladar un vehículo averiado o de alto valor, nuestro equipo altamente capacitado está listo para brindarte un servicio de calidad que se adapte a tus necesidades. Confía en nosotros para un remolque seguro y eficiente, respaldado por nuestra experiencia en la industria de remolque."
+      }
+    ],
+    "testimonials": [
+      {
+        "title": "Servicio de Remolque por Accidente",
+        "client": "María G.",
+        "testimonial": "¡Increíble! Mi auto se averió en medio de la nada y llamé a Lla Towing. El servicio de remolque por accidente fue rápido y seguro. Me hicieron sentir tranquila en un momento de crisis. ¡Gracias!"
+      },
+      {
+        "title": "Cambio de Neumáticos por Pinchazo",
+        "client": "Javier R.",
+        "testimonial": "Tuve un pinchazo en medio de un viaje. El cambio de neumáticos por pinchazo fue rápido y el equipo de Lla Towing fue muy profesional. Me ahorraron tiempo y preocupaciones."
+      },
+      {
+        "title": "Arranque de Auto por Batería Muerta",
+        "client": "Ana S.",
+        "testimonial": "Mi batería murió en el peor momento posible. El servicio de arranque de auto de Lla Towing me sacó de apuros en minutos. ¡Gracias por la asistencia rápida y eficiente!"
+      },
+      {
+        "title": "Reparaciones Menores",
+        "client": "Luis M.",
+        "testimonial": "Mi vehículo tenía problemas menores, pero Lla Towing lo solucionó de inmediato. Su servicio de reparaciones menores es excelente y me ayudó a evitar un problema más grande."
+      },
+      {
+        "title": "Flatbed Towing (Remolque con Plataforma Plana)",
+        "client": "Isabella D.",
+        "testimonial": "Tuve un vehículo de lujo que necesitaba ser transportado de manera segura. El servicio de flatbed towing de Lla Towing fue perfecto. Cuidaron mi auto y lo entregaron sin un rasguño."
+      },
+      {
+        "title": "Asistencia Rápida y Confiable",
+        "client": "Roberto G.",
+        "testimonial": "Siempre puedo contar con Lla Towing en situaciones de emergencia. Son rápidos, confiables y asequibles. Gracias por su ayuda constante en la carretera."
       }
     ]
   }

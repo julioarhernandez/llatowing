@@ -1027,13 +1027,6 @@
               >
                 <div class="elementor-widget-container">
                   <p>Sabemos que las emergencias en la carretera pueden ser estresantes y preocupantes, y es por eso que estamos comprometidos a brindarte un servicio de remolque rápido y efectivo que te devuelva la tranquilidad en esos momentos críticos. Nuestra flota de vehículos está lista para responder a tu llamada las 24 horas del día, los 7 días de la semana, para asegurarnos de que estés de nuevo en marcha en el menor tiempo posible.</p>
-
-                  <p>En Lla Towing, creemos que la calidad no debe romper tu presupuesto. Es por eso que ofrecemos tarifas competitivas y precios accesibles para asegurarte que obtengas el servicio que necesitas sin tener que preocuparte por gastos excesivos. Valoramos a nuestra comunidad latina y estamos comprometidos a brindar soluciones de remolque asequibles que se ajusten a tus necesidades.</p>
-
-                  <p>Ofrecemos una amplia gama de servicios de remolque para adaptarnos a las diferentes situaciones en las que te puedas encontrar. Ya sea que necesites remolcar un automóvil, camión, motocicleta o vehículo recreativo, nuestro equipo de expertos estará allí para brindarte asistencia rápida y profesional.</p>
-
-                  <p>La confianza y el profesionalismo son nuestros pilares. Nuestro personal capacitado y amable se esfuerza por atenderte de la mejor manera posible, garantizando que tu experiencia de remolque sea sin complicaciones y segura. Puedes confiar en nosotros para cuidar de tu vehículo como si fuera nuestro propio.</p>
-
                 </div>
               </div>
               <div
@@ -1103,7 +1096,7 @@
                 <div class="elementor-widget-container">
                   <h3 class="elementor-heading-title elementor-size-default">
                     <a href="./service-details/"
-                      >{{data.home.services[0].title}}</a
+                      >{{data.home.services[0].titleResumed}}</a
                     >
                   </h3>
                 </div>
@@ -1126,7 +1119,7 @@
               >
                 <div class="elementor-widget-container">
                   <h3 class="elementor-heading-title elementor-size-default">
-                    <a href="#">{{data.home.services[1].title}}</a>
+                    <a href="#">{{data.home.services[1].titleResumed}}</a>
                   </h3>
                 </div>
               </div>
@@ -1157,7 +1150,7 @@
               >
                 <div class="elementor-widget-container">
                   <h3 class="elementor-heading-title elementor-size-default">
-                    <a href="#">{{data.home.services[2].title}}</a>
+                    <a href="#">{{data.home.services[2].titleResumed}}</a>
                   </h3>
                 </div>
               </div>
@@ -1179,7 +1172,7 @@
               >
                 <div class="elementor-widget-container">
                   <h3 class="elementor-heading-title elementor-size-default">
-                    <a href="#">{{data.home.services[3].title}}</a>
+                    <a href="#">{{data.home.services[3].titleResumed}}</a>
                   </h3>
                 </div>
               </div>
@@ -1794,74 +1787,9 @@
           </div>
         </div>
       </section>
-      <section
-        class="elementor-section elementor-top-section elementor-element elementor-element-9e6eb7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-        data-id="9e6eb7"
-        data-element_type="section"
-        data-settings='{"background_background":"classic","animation":"none"}'
-      >
-        <div class="elementor-background-overlay"></div>
-        <div class="elementor-container elementor-column-gap-default">
-          <div
-            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-45c3c8c"
-            data-id="45c3c8c"
-            data-element_type="column"
-          >
-            <div class="elementor-widget-wrap"></div>
-          </div>
-          <div
-            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-b2bcd7a"
-            data-id="b2bcd7a"
-            data-element_type="column"
-          >
-            <div class="elementor-widget-wrap elementor-element-populated">
-              <div
-                class="elementor-element elementor-element-1c3ac383 elementor-widget elementor-widget-heading"
-                data-id="1c3ac383"
-                data-element_type="widget"
-                data-widget_type="heading.default"
-              >
-                <div class="elementor-widget-container">
-                  <h4 class="elementor-heading-title elementor-size-default">
-                    RECOMIENDA A UN AMIGO EN APUROS Y ÉL RECIBIRÁ UN
-                  </h4>
-                </div>
-              </div>
-              <div
-                class="elementor-element elementor-element-a615dc8 elementor-widget elementor-widget-spacer"
-                data-id="a615dc8"
-                data-element_type="widget"
-                data-widget_type="spacer.default"
-              >
-                <div class="elementor-widget-container">
-                  <div class="elementor-spacer">
-                    <div class="elementor-spacer-inner"></div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="elementor-element elementor-element-48149d8c elementor-widget elementor-widget-heading"
-                data-id="48149d8c"
-                data-element_type="widget"
-                data-widget_type="heading.default"
-              >
-                <div class="elementor-widget-container">
-                  <h2 class="elementor-heading-title elementor-size-default">
-                     DESCUENTO DEL 15%
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a00309b"
-            data-id="a00309b"
-            data-element_type="column"
-          >
-            <div class="elementor-widget-wrap"></div>
-          </div>
-        </div>
-      </section>
+
+  {% include "sections/descuento.njk" %}
+
       <section
         class="elementor-section elementor-top-section elementor-element elementor-element-2d9a71ba elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="2d9a71ba"
