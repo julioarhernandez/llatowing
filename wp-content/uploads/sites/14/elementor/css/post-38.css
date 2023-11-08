@@ -1,3 +1,12 @@
+.logo{
+  width: 120px;
+}
+@media screen and (max-width: 1023.9px){
+  .logo{
+    width: 80px;
+  }
+}
+
 .elementor-38
   .elementor-element.elementor-element-185bb290
   > .elementor-background-overlay {
