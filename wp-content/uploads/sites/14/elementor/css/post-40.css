@@ -761,7 +761,7 @@
   --spacer-size: 10px;
 }
 .elementor-40 .elementor-element.elementor-element-3b8f1b1b {
-  text-align: justify;
+  /*text-align: justify;*/
   color: var(--e-global-color-d82685b);
   font-family: var(--e-global-typography-text-font-family), Sans-serif;
   font-weight: var(--e-global-typography-text-font-weight);
@@ -783,7 +783,7 @@
   --spacer-size: 10px;
 }
 .elementor-40 .elementor-element.elementor-element-4c6d2166 {
-  text-align: justify;
+  /*text-align: justify;*/
   color: var(--e-global-color-d82685b);
   font-family: var(--e-global-typography-text-font-family), Sans-serif;
   font-weight: var(--e-global-typography-text-font-weight);
@@ -1555,7 +1555,7 @@ body:not(.rtl)
   padding: 0px 25px 0px 0px;
 }
 .elementor-40 .elementor-element.elementor-element-470669d0 {
-  text-align: justify;
+  /*text-align: justify;*/
   color: var(--e-global-color-d82685b);
   font-family: var(--e-global-typography-text-font-family), Sans-serif;
   font-weight: var(--e-global-typography-text-font-weight);
@@ -1569,7 +1569,7 @@ body:not(.rtl)
   padding: 0px 0px 0px 25px;
 }
 .elementor-40 .elementor-element.elementor-element-718a7d0b {
-  text-align: justify;
+  /*text-align: justify;*/
   color: var(--e-global-color-d82685b);
   font-family: var(--e-global-typography-text-font-family), Sans-serif;
   font-weight: var(--e-global-typography-text-font-weight);
