@@ -232,7 +232,9 @@
                       <span class="elementor-icon-list-icon">
                         <i aria-hidden="true" class="fas fa-phone"></i>
                       </span>
-                                    <span class="elementor-icon-list-text">{{ data.phone }}</span>
+                                    <span class="elementor-icon-list-text">
+                                        <a href="tel:{{ data.phone }}" style="color: white" data-id="phoneConversion">{{ data.phone }}</a>
+                                    </span>
                                 </li>
                             </ul>
                         </div>

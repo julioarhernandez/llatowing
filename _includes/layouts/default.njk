@@ -700,6 +700,35 @@
             href="/wp-content/plugins/metform/public/assets/css/style.css?ver=3.3.3"
             media="all"
     />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11405241728"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11405241728');
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function checkCampaignParam() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const campaignParam = urlParams.get("campaign");
+                return (campaignParam === "1");
+            }
+
+            // Find all elements with data-id="phoneConversion" and add a click event listener
+            const phoneConversionLinks = document.querySelectorAll('[data-id="phoneConversion"]');
+            phoneConversionLinks.forEach(link => {
+                link.addEventListener("click", () => {
+                    if (checkCampaignParam()) {
+                        // gtag('event', 'conversion', {'send_to': 'AW-11405241728/lCYGCJ_Lm_UYEIDbuL4q'});
+                        alert('converted');
+                    }
+                });
+            });
+        });
+    </script>
 </head>
     {{ content | safe }}
 </html>
