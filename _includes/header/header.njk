@@ -1,3 +1,6 @@
+{% if lang==en %}
+    {%  set data= data_en %}
+{% endif %}
 <section
         class="elementor-section elementor-top-section elementor-element elementor-element-185bb290 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="185bb290"
@@ -19,7 +22,7 @@
                         data-widget_type="image.default"
                 >
                     <div class="elementor-widget-container">
-                        <a href="/">
+                        <a href="/"{% if hideLink %} class="notClickable"{% endif %}>
                             <img
                                     class="logo"
                                     decoding="async"
@@ -68,10 +71,10 @@
                                             </div>
                                             <div class="elementor-icon-box-content">
                                                 <h6 class="elementor-icon-box-title">
-                                                    <span> Abierto </span>
+                                                    <span> {{ data.home.header.hoursTitle }} </span>
                                                 </h6>
                                                 <p class="elementor-icon-box-description">
-                                                    Lun-Dom | 24 Hours
+                                                    {{ data.home.header.hoursContent }}
                                                 </p>
                                             </div>
                                         </div>
@@ -102,7 +105,7 @@
                                             </div>
                                             <div class="elementor-icon-box-content">
                                                 <h6 class="elementor-icon-box-title">
-                                                    <span> Llámanos </span>
+                                                    <span> {{ data.home.header.phoneTitle }} </span>
                                                 </h6>
                                                 <p class="elementor-icon-box-description">
                                                     <a href="tel:{{ data.phone }}" style="color: white" data-id="phoneConversion">{{ data.phone }}</a>
@@ -132,8 +135,8 @@
                 >
                     <div class="elementor-widget-container">
                         <h6 class="elementor-heading-title elementor-size-default">
-                            <a href="/contact"
-                            >Cotización Gratis</a
+                            <a href="{{ data.home.header.ctaLink }}"
+                            >{{ data.home.header.ctaTitle }}</a
                             >
                         </h6>
                     </div>
@@ -142,11 +145,14 @@
         </div>
     </div>
 </section>
+
 <section
         class="elementor-section elementor-top-section elementor-element elementor-element-10dea9a4 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
         data-id="10dea9a4"
         data-element_type="section"
+        {% if hideHeader %}style="display: none"{% endif %}
 >
+    <div class="elementor-background-overlay"></div>
     <div class="elementor-background-overlay"></div>
     <div class="elementor-container elementor-column-gap-default">
         <div

@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.notClickable {
+  pointer-events: none;
+}
 .comments-area a,
 .page-content a {
   text-decoration: underline;

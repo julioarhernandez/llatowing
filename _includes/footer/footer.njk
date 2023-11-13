@@ -1,3 +1,6 @@
+{% if lang==en %}
+    {%  set data= data_en %}
+{% endif %}
 <div class="section elementor-38">
 
     <section
@@ -24,7 +27,7 @@
                     >
                         <div class="elementor-widget-container">
                             <h3 class="elementor-heading-title elementor-size-default">
-                                Contactanos
+                                {{ data.home.footer.formTitle }}
                             </h3>
                         </div>
                     </div>
@@ -84,7 +87,7 @@
                                                                                                 class="mf-input "
                                                                                                 id="mf-input-text-b39ae92"
                                                                                                 name="Nombre"
-                                                                                                placeholder="Nombre "
+                                                                                                placeholder="{{ data.home.footer.formName }}"
                                                                                                 aria-invalid="false">
                                                                                     </div>
                                                                                 </div>
@@ -111,7 +114,7 @@
                                                                                                 class="mf-input "
                                                                                                 id="mf-input-email-c60ee45"
                                                                                                 name="email"
-                                                                                                placeholder="Email "
+                                                                                                placeholder="{{ data.home.footer.formEmail }} "
                                                                                                 aria-invalid="false"
                                                                                                 value=""></div>
                                                                                 </div>
@@ -135,7 +138,7 @@
                                                                                          data-mf-form-conditional-logic-requirement="">
                                                                                         <button type="submit"
                                                                                                 class="metform-btn metform-submit-btn "
-                                                                                                id=""><span>Contactanos ahora </span>
+                                                                                                id=""><span>{{ data.home.footer.formCTA }}</span>
                                                                                         </button>
                                                                                     </div>
                                                                                 </div>

@@ -4,6 +4,13 @@
   "address1": "966 NW Fanning Way",
   "address2": "Portland, Oregon 97030",
   "home": {
+    "header": {
+      "hoursTitle": "Abierto",
+      "hoursContent": "Lun-Dom | 24 Hours",
+      "phoneTitle": "Llámanos",
+      "ctaLink": "/contact",
+      "ctaTitle": "Cotización Gratis"
+    },
     "hero": {
       "title": "Asistencia en carretera, cuando más la necesitas.",
       "subtitle1": "Servicios de remolque",
@@ -70,7 +77,13 @@
         "client": "Roberto G.",
         "testimonial": "Siempre puedo contar con Lla Towing en situaciones de emergencia. Son rápidos, confiables y asequibles. Gracias por su ayuda constante en la carretera."
       }
-    ]
+    ],
+    "footer": {
+      "formTitle": "Contacto",
+      "formName": "Nombre",
+      "formEmail": "Email",
+      "formCTA": "Contactanos ahora"
+    }
   },
   "form": "https://formspree.io/f/mbjvbdlw"
 }

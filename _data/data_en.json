@@ -1,0 +1,89 @@
+{
+  "phone": "(405) 406-5697",
+  "email": "llatowingllc@gmail.com",
+  "address1": "966 NW Fanning Way",
+  "address2": "Portland, Oregon 97030",
+  "home": {
+    "header": {
+      "hoursTitle": "Open",
+      "hoursContent": "Mon-Sun | 24 Hours",
+      "phoneTitle": "Call US",
+      "ctaLink": "tel:(405) 406-5697",
+      "ctaTitle": "Free Estimates"
+    },
+    "hero": {
+      "title": "Roadside Assistance, when you need it most.",
+      "subtitle1": "Towing Services",
+      "subtitle2": "Your on-the-road support 24/7."
+    },
+    "contact": {
+      "title": "Emergency Services 24/7"
+    },
+    "services": [
+      {
+        "title": "Accident or Breakdown Towing",
+        "titleResumed": "Accident Towing",
+        "content": "Our accident towing service is designed to provide you with quick and professional assistance in roadside emergency situations. Whether it's a minor or major accident or another breakdown, our team will arrive at the incident location immediately to ensure the safe recovery of your vehicle. We guarantee efficient response and safe transport of your car to wherever you need it."
+      },
+      {
+        "title": "Flat Tire Change",
+        "titleResumed": "Tire Change",
+        "content": "Tire punctures can happen at the least opportune moment, but we're here to help. We offer a fast and efficient tire change service so you can get back on the road in no time. Our expert technicians ensure that your tires are replaced or repaired professionally, providing you peace of mind in your travels."
+      },
+      {
+        "title": "Jump Start for Dead Batteries",
+        "titleResumed": "Jump Start",
+        "content": "There's nothing more frustrating than encountering a dead car battery. Our jump start service is the solution to your problems. Our professionals are equipped with the necessary tools to safely and effectively start your vehicle, saving you time and unnecessary hassle."
+      },
+      {
+        "title": "Minor Repairs",
+        "titleResumed": "Minor Repairs",
+        "content": "When it comes to minor repairs on your vehicle, we are here to help. Our technicians are trained to address common issues that can affect your car's performance. We make adjustments and solve problems that do not require spare parts, with the goal of getting your vehicle back on the road quickly and efficiently."
+      },
+      {
+        "title": "Flatbed Towing",
+        "titleResumed": "Flatbed Towing",
+        "content": "Our Flatbed Towing service is the safe and reliable solution for transporting a wide variety of vehicles, from cars and trucks to RVs and heavy machinery. Our flatbed ensures stable and secure transport, minimizing the risk of damage during towing. Whether you need to transport a disabled or high-value vehicle, our highly trained team is ready to provide you with quality service tailored to your needs. Trust us for safe and efficient towing, backed by our experience in the towing industry."
+      }
+    ],
+    "testimonials": [
+      {
+        "title": "Accident Towing Service",
+        "client": "Maria G.",
+        "testimonial": "Amazing! My car broke down in the middle of nowhere, and I called Lla Towing. The accident towing service was fast and secure. They made me feel calm in a crisis. Thank you!"
+      },
+      {
+        "title": "Flat Tire Change",
+        "client": "Javier R.",
+        "testimonial": "I had a flat tire in the middle of a trip. The flat tire change was quick, and the Lla Towing team was very professional. They saved me time and worries."
+      },
+      {
+        "title": "Jump Start for Dead Batteries",
+        "client": "Ana S.",
+        "testimonial": "My battery died at the worst possible moment. Lla Towing's jump start service got me out of trouble in minutes. Thanks for the quick and efficient assistance!"
+      },
+      {
+        "title": "Minor Repairs",
+        "client": "Luis M.",
+        "testimonial": "My vehicle had minor issues, but Lla Towing fixed it immediately. Their minor repairs service is excellent and helped me avoid a bigger problem."
+      },
+      {
+        "title": "Flatbed Towing",
+        "client": "Isabella D.",
+        "testimonial": "I had a luxury vehicle that needed to be transported safely. Lla Towing's flatbed towing service was perfect. They took care of my car and delivered it without a scratch."
+      },
+      {
+        "title": "Fast and Reliable Assistance",
+        "client": "Roberto G.",
+        "testimonial": "I can always count on Lla Towing in emergency situations. They are fast, reliable, and affordable. Thanks for your constant help on the road."
+      }
+    ],
+    "footer": {
+      "formTitle": "Contact Us",
+      "formName": "Name",
+      "formEmail": "Email",
+      "formCTA": "Contact us Now"
+    }
+  },
+  "form": "https://formspree.io/f/mbjvbdlw"
+}
