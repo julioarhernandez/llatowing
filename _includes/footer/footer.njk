@@ -229,7 +229,8 @@
                                 <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
                               </span>
 
-                                    <span class="elementor-icon-list-text">{{ data.address1 }}<br/>{{ data.address2 }}</span>
+                                    <span class="elementor-icon-list-text">{% if data.address1 %}{{ data.address1 }}<br/>{% endif %}
+                                    {{ data.address2 }}</span>
                                 </li>
                                 <li class="elementor-icon-list-item">
                       <span class="elementor-icon-list-icon">

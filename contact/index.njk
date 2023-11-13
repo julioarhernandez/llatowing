@@ -221,7 +221,9 @@ eleventyNavigation:
                                 <span> Localizacion </span>
                               </h3>
                               <p class="elementor-icon-box-description">
+                                {% if data.address1 %}
                                 {{ data.address1 }}<br/>
+                                {% endif %}
                                 {{ data.address2 }}
                               </p>
                             </div>
@@ -499,7 +501,7 @@ eleventyNavigation:
                   <div class="elementor-custom-embed">
                     <iframe
                       loading="lazy"
-                      src="https://maps.google.com/maps?q=966%20NW%20Fanning%20Way%20Oregon&#038;t=m&#038;z=15&#038;output=embed&#038;iwloc=near"
+                      src="https://maps.google.com/maps?q=Portland%20Oregon&t=&z=13&ie=UTF8&iwloc=&output=embed"
                       title="London Eye, London, United Kingdom"
                       aria-label="London Eye, London, United Kingdom"
                     ></iframe>
