@@ -717,15 +717,11 @@
                 return (campaignParam === "1");
             }
 
-            // Find all elements with data-id="phoneConversion" and add a click event listener
-            const phoneConversionLinks = document.querySelectorAll('[data-id="phoneConversion"]');
-            phoneConversionLinks.forEach(link => {
-                link.addEventListener("click", () => {
-                    if (checkCampaignParam()) {
-                        gtag('event', 'conversion', {'send_to': 'AW-11405241728/lCYGCJ_Lm_UYEIDbuL4q'});
-                    }
+            if (checkCampaignParam()) {
+                gtag('config', 'AW-11405241728/ainGCN-_rvYYEIDbuL4q', {
+                    'phone_conversion_number': '(405) 406-5697'
                 });
-            });
+            }
         });
     </script>
 </head>
