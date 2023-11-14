@@ -722,7 +722,19 @@
                     'phone_conversion_number': '(405) 406-5697'
                 });
             }
+
         });
+    </script>
+    <!-- Event snippet for SubmitForm conversion page -->
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll("a[href*='tel']").forEach(function (el) {
+                el.addEventListener('click', function () {
+                    console.log("click TEL")
+                    gtag('event', 'conversion', {'send_to': 'AW-11405241728/imxfCJeTz_YYEIDbuL4q'});
+                });
+            });
+        })
     </script>
 </head>
     {{ content | safe }}
