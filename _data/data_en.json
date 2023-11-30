@@ -9,7 +9,7 @@
       "hoursContent": "Mon-Sun | 24 Hours",
       "phoneTitle": "Call US",
       "ctaLink": "tel:(405) 406-5697",
-      "ctaTitle": "Free Estimates"
+      "ctaTitle": "Call us"
     },
     "hero": {
       "title": "Roadside Assistance, when you need it most.",
@@ -26,19 +26,14 @@
         "content": "Our local towing service is meticulously crafted to offer swift and professional aid during roadside emergencies. Whether it's a minor mishap, a major accident, or another breakdown, our team will promptly reach the scene to ensure the secure recovery of your vehicle. We assure an efficient response and the safe transportation of your car to your desired destination. Rely on our experienced professionals to provide prompt and effective local towing roadside assistance services, delivering a secure solution customized to your specific needs."
       },
       {
-        "title": "Flat Tire Change",
-        "titleResumed": "Tire Change",
-        "content": "Tire punctures can happen at the least opportune moment, but we're here to help. We offer a fast and efficient tire change service so you can get back on the road in no time. Our expert technicians ensure that your tires are replaced or repaired professionally, providing you peace of mind in your travels."
+        "title": "MOTORCYCLE TOWING",
+        "titleResumed": "MOTORCYCLE TOWING",
+        "content": "We provide specialized motorcycle towing services, ensuring safe and reliable transport. Whether you need assistance in case of a breakdown, transportation to specialized workshops, or any other situation, we are here to address your motorcycle towing needs. Our professional team and proper equipment ensure the optimal care of your motorcycle throughout the entire towing process."
       },
       {
-        "title": "Jump Start for Dead Batteries",
-        "titleResumed": "Jump Start",
-        "content": "There's nothing more frustrating than encountering a dead car battery. Our jump start service is the solution to your problems. Our professionals are equipped with the necessary tools to safely and effectively start your vehicle, saving you time and unnecessary hassle."
-      },
-      {
-        "title": "Minor Repairs",
-        "titleResumed": "Minor Repairs",
-        "content": "When it comes to minor repairs on your vehicle, our nearby towing services are here to help. Our technicians are trained to address common issues that can affect your car's performance. We make adjustments and solve problems that do not require spare parts, with the goal of getting your vehicle back on the road quickly and efficiently."
+        "title": "JUNKER CAR TOWING SERVICE",
+        "titleResumed": "Junker Car",
+        "content": "We offer specialized towing services for junker cars. If you have a vehicle that no longer operates or needs disposal, our team is ready to provide assistance. We tow your car safely and efficiently, offering solutions for vehicle transport in various situations. Trust us for professional and reliable junker car towing service."
       },
       {
         "title": "Flatbed Towing",
